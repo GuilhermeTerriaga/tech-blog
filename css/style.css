@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e2e2e2;
+}
+#nav{
+    background-color: white;
+    border-bottom: 3px solid #d8d8d8;
+    height: 45px;
+}
+#area{
+    width: 720px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+}
+
+/*Menu*/
+#menu{
+    padding:10px 0;
+    float: right;
+}
+a:link{
+    color: #838383;
+}
+a:visited{
+    color: #838383;
+}
+a{
+    text-decoration:none;
+    padding: 5px 10px;
+}
+a:hover{
+    color:#ffffff;
+    background-color: #b9c941;
+    transition-duration: 0.6s;
+}
+a:active{
+    color:#535353;
+}
+/* classes*/
+.green{
+    color: #b9c941;
+}
