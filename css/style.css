@@ -83,6 +83,20 @@ a{
 #item:active{
     color:#535353;
 }
+
+footer{
+    position: static;
+    bottom: 0;
+    margin: 10px auto 0 auto;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px; 
+    border-top: 3px #d8d8d8 solid;
+    border-bottom: 10px #b9c941 solid;
+    padding-top: 40px;
+    text-align: center;
+
+}
 /* classes*/
 .green{
     color: #b9c941;
